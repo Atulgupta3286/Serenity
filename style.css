@@ -1,0 +1,214 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+#nav {
+    color: rgb(191, 188, 188);
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#navleft {
+    margin-top: 50px;
+
+}
+
+#navright {
+    width: 20%;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#navside {
+    width: 20%;
+    color: rgb(191, 188, 188);
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    right: -5%;
+    display: flex;
+    transform: rotate(90deg);
+    justify-content: space-evenly;
+}
+
+#body {
+    position: absolute;
+    top: 20%;
+    margin-left: 70px;
+}
+
+#body h4 {
+    color: rgb(204, 200, 200);
+}
+
+#body h1 {
+    margin-top: 8px;
+    font-size: 70px;
+    color: rgb(228, 228, 228);
+}
+
+#best {
+    margin-top: 30px;
+    font-size: 13px;
+    color: rgb(159, 148, 148);
+}
+
+#ttxt {
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+    margin-top: 5px;
+}
+
+#pa {
+    color: rgb(204, 200, 200);
+
+}
+
+#pb {
+    color: rgb(204, 200, 200);
+    /* position: absolute;top: 20%; */
+}
+
+#arrleft {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 115%;
+}
+
+#arrright {
+    color: rgb(171, 161, 161);
+    font-size: 25px;
+    position: absolute;
+    top: 115%;
+    left: 8%;
+}
+
+#mbtm {
+    height: 35%;
+    background-color: rgb(230, 222, 222);
+    margin-top: 27%;
+    position: relative;
+}
+
+#abcd {
+    display: flex;
+    margin-left: 70px;
+    position: absolute;
+    top: 12%;
+}
+
+#abcd h4 {
+    margin-left: 8px;
+    color: rgb(163, 146, 146);
+
+
+}
+
+#aaa {
+    margin-left: 70px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 25%;
+
+}
+
+#a p {
+    color: rgb(163, 146, 146);
+
+}
+
+#b {
+    color: rgb(163, 146, 146);
+}
+
+#c {
+    color: rgb(163, 146, 146);
+}
+
+#dotted {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    margin-left: 70px;
+}
+
+#dotted span {
+    color: rgb(163, 146, 146);
+}
+
+#imga {
+    height: 80%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+#imgab {
+    width: 15%;
+    position: absolute;
+    top: -10%;
+    left: 65%;
+    border-radius: 10%;
+}
+
+#black {
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    position: absolute;
+    right: 0%;
+}
+#black p{
+    color: #fff;
+    margin-left: 120px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+#black h6{
+    color: gray;
+    margin-top: 40px;
+    margin-left:120px ;
+}
+#black h5{
+    color: gray;
+    margin-left:120px ;
+margin-top: 20px;
+}
+#ma{
+    height: 30px;
+    width: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(29, 28, 28);
+    position: absolute;
+    top: 66.2%;
+    right: 14.2%;
+}
